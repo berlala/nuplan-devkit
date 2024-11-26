@@ -1,9 +1,9 @@
 import os
 
 # Nuplan related
-DATA_PATH = '${your_local_path}/nuplan/dataset/nuplan-v1.1/splits/mini'
-MAP_PATH  = '${your_local_path}/nuplan/dataset/maps'
-SAVE_PATH = '${your_local_path}/VectorNet_NuPlan/processed_data'
+DATA_PATH = '/home/bolin/Projects/shenlan/nuplan/dataset/nuplan-v1.1/splits/mini'
+MAP_PATH  = '/home/bolin/Projects/shenlan/nuplan/dataset/maps'
+SAVE_PATH = '/home/bolin/Projects/shenlan/nuplan-devkit/nuplan/prediction/VectorNet_NuPlan/processed_data'
 MAP_VERSION = "nuplan-maps-v1.0"
 SCENARIOS_PER_TYPE = 2000
 TOTAL_SCENARIOS = 6000
